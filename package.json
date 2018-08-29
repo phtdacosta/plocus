@@ -1,0 +1,19 @@
+{
+  "name": "plocus",
+  "version": "0.0.1",
+  "description": "Unopinionated static template render engine under 650 bytes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/basic.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phtdacosta/plocus.git"
+  },
+  "author": "Pedro Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phtdacosta/plocus/issues"
+  },
+  "homepage": "https://github.com/phtdacosta/plocus#readme"
+}
