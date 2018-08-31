@@ -31,7 +31,14 @@ var person = {'name':'Cynthia', 'examDate': '05/27/2015'}
 // Renders the page filling all property patterns with their corresponding values
 var renderedPage = p.renderTemplate(page, /(( (\w*) ))/, person)
 // renderedPage value is
-// <html><head><title>Cynthia</title></head>Hello Cynthia! Your alchemy exams are scheduled for  05/27/2015.</html>
+/*
+<html>
+  <head>
+    <title>Cynthia</title>
+  </head>
+  Hello Cynthia! Your alchemy exams are scheduled for 05/27/2015.
+</html>
+*/
 ```
 
 # Documentation
