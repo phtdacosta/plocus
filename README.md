@@ -13,7 +13,7 @@ Unopinionated static template render engine under 650 bytes
 
 ```js
 // Requires the module manually
-var p = require('./plocus/src/index.js')
+var p = require('plocus')
 
 // Reusable template example using "(( property ))" as the chosen pattern for the object
 var page = `
